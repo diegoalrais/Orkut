@@ -1,6 +1,6 @@
 # ORKUT
 
-Após ver um post da Digital Innovation One, no qual [Felipe Aguiar]([(15) Felipe Silva Aguiar | LinkedIn](https://www.linkedin.com/in/felipe-aguiar-047/)) , recriou a interface do Orkut, me senti instigado a tentar fazem um app. 
+Após ver um post da Digital Innovation One, no qual [Felipe Aguiar]([(15) Felipe Silva Aguiar | LinkedIn](https://www.linkedin.com/in/felipe-aguiar-047/)) , recriou a interface do Orkut, me senti instigado a tentar fazer um app. 
 
 Não assisti o vídeo apenas tirei um print da tela e com base nela e em imagens encontradas no Goolge, fiz o projeto.
 
