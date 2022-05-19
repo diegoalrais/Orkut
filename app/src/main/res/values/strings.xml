@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Orkut</string>
+    <string name="txt_acesse">Acesse o Orkut com a sua conta Google!</string>
+    <string name="edt_email">E-mail ou número de celular</string>
+    <string name="edt_senha">Senha</string>
+    <string name="btn_entrar">ENTRAR</string>
+    <string name="txt_esqueci_senha">Esqueci senha ou email</string>
+    <string name="txt_sem_conta">Não tem conta?</string>
+    <string name="txt_lembrar_acesso">Lembrar sempre do meu acesso</string>
+    <string name="btn_nao_aceita">Não</string>
+    <string name="btn_aceita_sim">Sim</string>
+    <string name="txt_bem_vindo">Bem vindo(a/es), Fulano</string>
+    <string name="txt_pedidos_amizade">Novos pedidos de Amizade</string>
+    <string name="txt_visualizacoes_perfil">Visualizações do seu perfil:</string>
+    <string name="txt_mensagens">Mensagens</string>
+    <string name="txt_fas">Fãs</string>
+    <string name="txt_fotos">Fotos</string>
+    <string name="txt_recados">Recados</string>
+    <string name="txt_visualizacoes_recentes">Visualizações recentes:</string>
+    <string name="txt_dados_visitas">Desde Mai, 2022: 7, Semana passada: 0, Ontem: 1.</string>
+    <string name="txt_visitantes">Amigo 1, Amigo 2, Emprego em TI</string>
+    <string name="txt_msg_sorte">A sorte vem ao seu encontro</string>
+</resources>

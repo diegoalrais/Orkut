@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkLight"
+    android:orientation="vertical"
+    android:id="@+id/layout1"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="335dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/orkut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout2"
+        android:layout_width="379dp"
+        android:layout_height="351dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txt_mensagem"
+            android:layout_width="372dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txt_acesse"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="265dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_rectangle"
+            android:hint="@string/edt_email"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_mensagem" />
+
+        <EditText
+            android:id="@+id/edt_senha"
+            android:layout_width="265dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_rectangle"
+            android:hint="@string/edt_senha"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_email" />
+
+
+        <ImageButton
+            android:id="@+id/btn_ver_senha"
+            android:layout_width="34dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="228dp"
+
+            android:layout_marginTop="8dp"
+            android:src="@drawable/visibility"
+            app:layout_constraintStart_toStartOf="@+id/edt_senha"
+            app:layout_constraintTop_toTopOf="@+id/edt_senha" />
+
+        <CheckBox
+            android:id="@+id/lembrar_dados"
+            android:layout_width="24dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_senha"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="204dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:paddingTop="5dp"
+            android:text="@string/txt_lembrar_acesso"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toEndOf="@+id/lembrar_dados"
+            app:layout_constraintTop_toBottomOf="@+id/edt_senha" />
+
+        <Button
+            android:id="@+id/btn_entrar"
+            android:layout_width="253dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/shape_button"
+            android:text="@string/btn_entrar"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txt_esqueci_senha"
+            android:layout_width="229dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="4dp"
+            android:paddingStart="90dp"
+            android:text="@string/txt_esqueci_senha"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.66"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_entrar"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txt_sem_conta"
+            android:layout_width="119dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/txt_sem_conta"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_esqueci_senha" />
+
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            android:text="Criar Agora"
+            android:textColor="@color/deepPink"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_sem_conta"
+            app:layout_constraintTop_toBottomOf="@+id/txt_esqueci_senha" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
